@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,48 @@
     <link rel="stylesheet" href="style.css">
     <title>Sign up form</title>
 </head>
+
 <body>
-    
+    <div class="left">
+        <div class="odin">
+            <img class="odin-img" src="images/odin-lined.png" alt="The odin logo"><span class="odin-txt">ODIN</span>
+        </div>
+        <footer>
+            Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a> on <a
+                href="https://unsplash.com" target="_blank">Unsplash</a>
+        </footer>
+    </div>
+    <div class="right">
+        <div class="text">
+            <p class="sign-up-txt">This is not a real online service! You know you need something like this in your life
+                to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p class="new-line-txt">You <em>know</em> you want to.</p>
+        </div>
+        <form action="#" method="post">
+            <div class="form">
+                <p class="form-prompt-txt">Let's do this!</p>
+                <div class="line1">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="firstName" id="first-name">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="lastName" id="last-name">
+                </div>
+                <div class="line2">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                    <label for="phone-number">PHONE NUMBER</label>
+                    <input type="number" name="phone" id="phone-number">
+                </div>
+                <div class="line3">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </div>
+            </div>
+                <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
 </body>
 </html>
