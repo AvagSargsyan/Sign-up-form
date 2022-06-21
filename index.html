@@ -29,29 +29,52 @@
         </div>
         <form action="#" method="post">
             <div class="form">
-                <p class="form-prompt-txt">Let's do this!</p>
-                <div class="line1">
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" name="firstName" id="first-name">
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" name="lastName" id="last-name">
+
+                <p class="form-txt">Let's do this!</p>
+                
+                <div class="form-main">
+                    <div class="form-left">
+                        <div class="first-name">
+                            <label for="first-name">FIRST NAME</label>
+                            <br>
+                            <input type="text" name="firstName" id="first-name">
+                        </div>
+                    
+                        <div class="email">
+                            <label for="email">EMAIL</label>
+                            <br>
+                            <input type="email" name="email" id="email">
+                        </div>
+                    
+                        <div class="password">
+                            <label for="password">PASSWORD</label>
+                            <br>
+                            <input type="password" name="password" id="password">
+                        </div>
+                    </div>
+                    <div class="form-right">
+                        <div class="last-name">
+                            <label for="last-name">LAST NAME</label>
+                            <br>
+                            <input type="text" name="lastName" id="last-name">
+                        </div>
+                        <div class="phone-number">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <br>
+                            <input type="number" name="phone" id="phone-number">
+                        </div>
+                        <div class="confirm-password">
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <br>
+                            <input type="password" name="confirm-password" id="confirm-password">
+                        </div>
+                    </div>
                 </div>
-                <div class="line2">
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-                    <label for="phone-number">PHONE NUMBER</label>
-                    <input type="number" name="phone" id="phone-number">
-                </div>
-                <div class="line3">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
-                    <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm-password" id="confirm-password">
-                </div>
+
             </div>
-                <button type="submit">Create Account</button>
+            <button type="submit">Create Account</button>
         </form>
-        <p>Already have an account? <a href="#">Log in</a></p>
+        <p class="log-in">Already have an account? <a href="#">Log in</a></p>
     </div>
 </body>
 </html>
