@@ -92,7 +92,7 @@ body {
 }
 
 .right .form-main .form-right {
-    margin-left: 1rem;
+    margin: 0 1rem;
 }
 
 .right .form .form-txt {
@@ -140,7 +140,7 @@ body {
 
 .right form [type="submit"] {
     padding: 1rem 3.4rem;
-    margin: 0 4rem;
+    margin: 1rem 4rem;
     border: none;
     background-color: #596D48;
     border-radius: 8px;
@@ -151,4 +151,14 @@ body {
 
 .right form [type="submit"]:hover {
     background-color: #39462e;
+}
+
+.right form [type="submit"]:active {
+    background-color: #21291b;
+}
+
+.error-message {
+    color: red;
+    text-align: start;
+    font-size: .9rem;
 }

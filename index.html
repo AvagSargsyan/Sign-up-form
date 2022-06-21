@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Sign up form</title>
 </head>
 
@@ -37,36 +38,36 @@
                         <div class="first-name">
                             <label for="first-name">FIRST NAME</label>
                             <br>
-                            <input type="text" name="firstName" id="first-name">
+                            <input type="text" name="firstName" id="first-name" minlength="2" required>
                         </div>
                     
                         <div class="email">
                             <label for="email">EMAIL</label>
                             <br>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                     
                         <div class="password">
                             <label for="password">PASSWORD</label>
                             <br>
-                            <input type="password" name="password" id="password">
+                            <input type="password" name="password" id="password" minlength="6" required>
                         </div>
                     </div>
                     <div class="form-right">
                         <div class="last-name">
                             <label for="last-name">LAST NAME</label>
                             <br>
-                            <input type="text" name="lastName" id="last-name">
+                            <input type="text" name="lastName" id="last-name" minlength="2" required>
                         </div>
                         <div class="phone-number">
                             <label for="phone-number">PHONE NUMBER</label>
                             <br>
-                            <input type="number" name="phone" id="phone-number">
+                            <input type="tel" name="phone" id="phone-number" minlength="9" required>
                         </div>
                         <div class="confirm-password">
                             <label for="confirm-password">CONFIRM PASSWORD</label>
                             <br>
-                            <input type="password" name="confirm-password" id="confirm-password">
+                            <input type="password" name="confirm-password" id="confirm-password" minlength="6" required>
                         </div>
                     </div>
                 </div>
